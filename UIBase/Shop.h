@@ -14,6 +14,7 @@
 @property(nonatomic, strong) NSString *titleName;
 @property(nonatomic, strong) NSArray *shops;
 
-+(instancetype)Shop;
+-(instancetype)initWithDict:(NSDictionary *)dict;
++(instancetype)shopWithDict:(NSDictionary *)dict;
 
 @end
