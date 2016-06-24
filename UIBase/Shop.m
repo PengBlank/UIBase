@@ -11,13 +11,13 @@
 @implementation Shop
 
 
--(NSArray *)shops{
-    if ( ! _shops ) {
-        _shops = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"shops.plist" ofType:nil]];
-    }
-    
-    return _shops;
-}
+//-(NSArray *)shops{
+//    if ( ! _shops ) {
+//        _shops = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"shops.plist" ofType:nil]];
+//    }
+//    
+//    return _shops;
+//}
 
 
 +(instancetype)shopWithDict:(NSDictionary *)dict{

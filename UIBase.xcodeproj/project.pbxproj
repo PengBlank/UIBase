@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0927033A1D1CE25200E05D30 /* shopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092703391D1CE25200E05D30 /* shopView.m */; };
 		0959553B1D1B9AAF006C6775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959553A1D1B9AAF006C6775 /* main.m */; };
 		0959553E1D1B9AAF006C6775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959553D1D1B9AAF006C6775 /* AppDelegate.m */; };
 		095955411D1B9AAF006C6775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095955401D1B9AAF006C6775 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092703381D1CE25200E05D30 /* shopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopView.h; sourceTree = "<group>"; };
+		092703391D1CE25200E05D30 /* shopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopView.m; sourceTree = "<group>"; };
 		095955361D1B9AAF006C6775 /* UIBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0959553A1D1B9AAF006C6775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0959553C1D1B9AAF006C6775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				0959553D1D1B9AAF006C6775 /* AppDelegate.m */,
 				0959556A1D1BE8BA006C6775 /* Shop.h */,
 				0959556B1D1BE8BA006C6775 /* Shop.m */,
+				092703381D1CE25200E05D30 /* shopView.h */,
+				092703391D1CE25200E05D30 /* shopView.m */,
 				0959553F1D1B9AAF006C6775 /* ViewController.h */,
 				095955401D1B9AAF006C6775 /* ViewController.m */,
 				095955421D1B9AAF006C6775 /* Main.storyboard */,
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0927033A1D1CE25200E05D30 /* shopView.m in Sources */,
 				095955411D1B9AAF006C6775 /* ViewController.m in Sources */,
 				0959553E1D1B9AAF006C6775 /* AppDelegate.m in Sources */,
 				0959553B1D1B9AAF006C6775 /* main.m in Sources */,
@@ -358,6 +364,7 @@
 				0959554F1D1B9AAF006C6775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
