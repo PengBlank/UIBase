@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Shop.h"
 
 @interface shopView : UIView
 
+@property(nonatomic, strong)Shop *shopObj;
 
++ (instancetype) shopView;
 
 @end
